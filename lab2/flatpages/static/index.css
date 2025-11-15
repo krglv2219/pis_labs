@@ -1,0 +1,48 @@
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #333;
+}
+
+/* таблица без двойных границ */
+table {
+    border-collapse: collapse;
+    width: 100%;           /* ширина таблицы 100% экрана */
+}
+
+/* границы у таблицы и ячеек */
+table, th, td {
+    border: 1px solid #000;
+}
+
+/* общий размер шрифта абзацев и h4 */
+p, h4 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+/* ЗАДАНИЕ: изменить размер шрифта h4 */
+h4 {
+    font-size: 16px;       /* можешь поставить 16 или 18, главное — отличаться */
+}
+
+/* ЗАДАНИЕ: заголовок первого уровня с засечками */
+h1 {
+    font-family: "Times New Roman", "Georgia", serif;
+}
+
+/* списки без дополнительных отступов */
+ul, ol {
+    margin: 0;
+    padding-left: 20px;
+}
+
+table tr td {
+    padding: 5px;
+}
+
+/* ЗАДАНИЕ: картинка высотой 30px */
+img {
+    height: 30px;
+    width: auto;
+}
